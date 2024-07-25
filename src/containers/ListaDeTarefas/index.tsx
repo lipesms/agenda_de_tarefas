@@ -56,11 +56,6 @@ const ListaDeTarefas = () => {
     <MainContainer>
       <Titulo as="p">{mensagem}</Titulo>
       <ul>
-        <li>{termo}</li>
-        <li>{criterio}</li>
-        <li>{valor}</li>
-      </ul>
-      <ul>
         {tarefas.map((t) => (
           <li key={t.titulo}>
             <Tarefa
